@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    color: white;   
+    background-image: url(pro_img/pexels-thorsten-technoman-338504.jpg);    
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+}
+#logo{
+    padding: 10px;
+    float: left;
+    text-shadow: 2px 2px white;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+ul li a:hover{
+    background-color: #e3e3e3;
+    padding: auto;
+}
+/* .active{
+    background-color: #4580CE;
+    padding: 12px;
+} */
+h2,h3
+{
+ color: white;
+ font-size: 40px;
+ margin-left: 500px;
+ position: absolute;
+ margin-top: 200px;
+ text-shadow: 2px 2px #000000;
+}
+h3
+{
+ font-size: 25px;
+ margin-top: 270px;
+}
+.menu 
+{
+    /* position: sticky;
+    top: 0px; */
+    background-color: rgba(160, 158, 158, 0.3);
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+ /* .menu .download{
+    position: sticky;
+    top: 0px;
+    z-index:4;
+}  */
+.menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu ul li 
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    height: 50px;;
+}
+.sub-menu img
+{
+    height: 600px;
+    width: 80%;
+    background-repeat: no-repeat;
+    margin-top: 800px;
+    border: 10px;
+}
+#h2{
+    color: white;
+    background: transparent;
+    margin-left:200px;
+    position: absolute;
+    margin-top: 880px;
+    font-size: 40px;
+}
+
+#h3{
+    color: white;
+    background: transparent;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 950px;
+    font-size: larger;
+}
+#calender{
+    border: 2px solid black;
+    background-color: white;
+    height: 100px;
+    width: 40%;
+    position: absolute; 
+    margin-left: 450px;
+    margin-top: 1340px;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 7px rgb(80, 79, 79);
+      
+}
+#sub-menu{
+    position: relative;
+}
+ #checkin{
+float: left;
+padding-left: 2px;
+}
+#checkout{
+    float: left;
+    padding-left: 60px;
+    }
+    #guest{
+        float: left;
+        padding-left: 100px;
+    }
+label{
+    color: #000000;
+    font-weight: bold;
+}
+
+
+#div{
+ height: 104px;
+ background-color: #4580CE; 
+background: rgba(69, 128, 206, 0.5);
+color: #000000;
+border-radius: 4px;
+width: 1250px;
+left: 95px;
+position: absolute;
+padding: 30px;
+position: relative;
+}
+
+/* Learn_more */
+#learn{
+position: absolute;
+width: 120px;
+height: 40px;
+left: 1100px;
+top: 35px;
+padding: 10px;
+background-color:#4580CE;
+background: transparent;
+border: 2px solid #4580CE;
+color:#4580CE;
+cursor: pointer;
+border-radius: 6px;
+}
+#learn:hover{
+    text-decoration: underline;
+}
+#txt{
+    color: #000000;
+    font-family: poppins;
+    position: absolute;
+    left: 500px;
+}
+#offers{
+    color: red;
+    position: absolute;
+    margin-left: 100px;
+}
+.div{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    margin: 40px;
+    text-align:center;
+    position: relative;
+}
+.div label{
+    position: absolute;
+    font-size: large; 
+    margin-top: 200px;  
+    left: 70px; 
+}
+#ooty img{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+#kolkata img{
+    border-radius: 100%;
+   height: 200px;
+    width: 200px;
+}
+#jaipur img{
+    border-radius: 100%;
+    height: 200px;
+     width: 200px;
+
+}
+#mumbai img{
+    border-radius: 100%;
+   height: 200px;
+    width: 200px;
+    
+}
+#hyderabad img{
+    border-radius: 100%;
+    height: 200px;
+     width: 200px;
+}
+.off{
+    margin-top: 150px;
+    float: left;
+    margin-left: 20px;
+    border: 10px;
+}
+
+
+/* Side_scrollbar */
+
+/* position: absolute;
+width: 6px;
+height: 404px;
+left: 616px;
+top: 3194px; */
+
+
+ #rect{
+position: absolute;
+left: 100px;
+top: 200px;
+height: 100px;
+width: 500px;
+background: #B7B7B7;
+border-radius: 2px;
+}
+.imgdiv{
+    position: absolute;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+}
+#rect1{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    height: 100px;
+    width: 500px;
+    background: #B7B7B7;
+    border-radius: 2px;
+    }
+    .imgdiv{
+        position: absolute;
+        left: 40px;
+        width: 100px;
+        height: 100px;
+    }
+    #rect2{
+        position: absolute;
+        left: 100px;
+        top: 600px;
+        height: 100px;
+        width: 500px;
+        background: #B7B7B7;
+        border-radius: 2px;
+        }
+        .imgdiv{
+            position: absolute;
+            left: 40px;
+            width: 100px;
+            height: 100px;
+        }
+
+.container{
+    position: relative;
+    background-color: rgb(203, 205, 205);
+    width: 80%;
+    height: 700px;
+    top: 600px;
+    border: 30px;
+    margin: 0;
+    /* overflow: hidden !important ; */
+}
+.container .image img{ 
+    position: absolute;
+    height: 650px;
+    width: 500px;
+    left: 640px;
+    top: 30px;
+}
+h5,#h4{
+    position: absolute;
+    top: 50px;
+    left:200Px;
+    font-family: sans-serif;
+    color:black;
+}
+#h4{
+    font-size : large;
+    top: 80px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 3300px;
+    width: 100%;
+  }
+  footer a{
+    color: white;
+  }
+
